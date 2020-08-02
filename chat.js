@@ -49,4 +49,4 @@ function btnFunc(){
 output(chat[0], 'robot');
 setTimeout( ()=>{
     output(chat[1], 'robot');
-} 2000);
+},2000);
