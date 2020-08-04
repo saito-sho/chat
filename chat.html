@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="chat.css">
-    <script type="text/javascript.js" src="chat.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chat.css" />
     <title>チャット</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <h1>チャットボット</h1>
-
     <!--画面-->
-    <div id= "field">
-        <ul id= "chat-ul"></ul>
+    <div id="field">
+      <ul id="chat-ul"></ul>
     </div>
-    
     <!--入力場所，送信ボタン-->
-    <div id= "input-field">
-        <input type= "text" id= "chat-input">
-        <input type= "button" value= "Send" id= "chat-button" onclick= "btnFunc()">
+    <div id="input-field">
+      <input type="text" id="chat-input" />
+      <input type="button" value="Send" id="chat-button" onclick="btnFunc()" />
     </div>
-</body>
-
+    <!-- ここに<script>を移動してください -->
+    <script type="text/javascript" src="chat.js"></script>
+  </body>
 </html>
